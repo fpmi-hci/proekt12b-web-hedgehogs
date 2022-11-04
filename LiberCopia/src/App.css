@@ -1,0 +1,27 @@
+:root{
+  --main-color: rgba(0,0,0,0);
+  --second-color: rgba(0,0,0,0);
+  --primary-color: rgb(67, 160, 255);
+  --success-color: rgba(110, 207, 151, 1);
+  --danger-color: rgb(247, 114, 73);
+  --warning-color: rgb(254, 222, 107);
+}
+
+
+
+*, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.layout{
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.layout__main{
+  margin-top: 45px;
+  padding: 0px;
+}

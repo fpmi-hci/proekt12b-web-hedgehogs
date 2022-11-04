@@ -1,0 +1,33 @@
+.cart__page{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.book__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-container{
+    align-self: flex-end;
+    margin: 30px 0;
+}
+
+.total-price{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.make-order-btn{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
